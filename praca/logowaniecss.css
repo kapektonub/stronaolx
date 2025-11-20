@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: verdana;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a {
+    background-color: #2b2b2b;
+    color: white;
+    margin-left: 8px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #333333;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-right: 5px;
+}
+.logo img {
+    height: 150%;
+    width: auto;
+}
+.jeden {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    justify-content: center;
+    max-width: 550px;
+    margin: 0 auto 50px;
+    margin-top: 40px;
+    height: 300px;
+
+}
+.dwa {
+flex: 1 1 300px;
+    background-color: rgb(83, 82, 82);
+    padding: 5x 15x;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+        box-shadow: 10px 10px 10px #000000;
+}
+.dwa input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+}
+.dwa button {
+    width: 84%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 17px;
+    background-color: #d60000;
+    color: white;
+     box-sizing: border-box;
+            transition: transform 0.1s, box-shadow 0.2s;
+
+}
+.dwa button:hover {
+     transform: scale(1);
+            box-shadow: 1px 4px 10px black;
+}
+
